@@ -5,7 +5,7 @@ Usage example for [gorilla-notes](https://github.com/daslu/gorilla-notes)
 ## Usage
 
 - Open a Clojure (JVM) REPL and connect with your favourite editor.
-- Follow the code and instruction at [example.clj](src/using_gorilla_notes/example.clj]).
+- Follow the code and instruction at [example.clj](src/using_gorilla_notes/example.clj).
 
 ## License
 
