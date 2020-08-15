@@ -90,3 +90,11 @@
              :e             #{1 2 3}
              "g"            "String key"
              0              nil}]])
+
+;; Modify rendering options
+(gn/toggle-option! :header?)
+(gn/toggle-option! :reverse-notes?)
+(gn/toggle-option! :notes-in-cards?)
+(gn/merge-new-options!
+ {:reverse-notes? false
+  :header? true})
