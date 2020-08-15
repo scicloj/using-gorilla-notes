@@ -1,6 +1,6 @@
 # using-gorilla-notes
 
-Usage example for [gorilla-notes](https://github.com/daslu/gorilla-notes).
+Usage example for [gorilla-notes](https://github.com/scicloj/gorilla-notes).
 
 Most examples are based on [gorilla-ui](https://github.com/pink-gorilla/gorilla-ui)'s [examples](https://github.com/pink-gorilla/gorilla-ui/tree/master/profiles/demo/src/example).
 
