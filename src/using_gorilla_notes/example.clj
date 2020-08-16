@@ -1,15 +1,15 @@
 (ns using-gorilla-notes.example
   (:require [gorilla-notes.core :as gn]
-            [gorilla-notes.intro :as intro]
-            [clojure.java.browse :refer [browse-url]]))
+            [gorilla-notes.intro :as intro]))
 
 (defonce server (gn/start-server!))
 
-;; Now you can browse localhost:3000 .
+;; Now you can browse the URL (gn/default-utl).
 ;; You are expected to see one note with an intro.
 
-(future
-  (browse-url "http://localhost:3000"))
+(println (gn/default-url))
+
+(gn/browse-default-url)
 
 ;; Add a note:
 
