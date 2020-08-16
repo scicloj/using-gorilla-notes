@@ -7,7 +7,7 @@ Most examples are based on [gorilla-ui](https://github.com/pink-gorilla/gorilla-
 ## Usage
 
 - Open a Clojure (JVM) REPL and connect with your favourite editor.
-- Follow the code and instruction at [example.clj](src/using_gorilla_notes/example.clj).
+- Follow the code and instructions at [example.clj](src/using_gorilla_notes/example.clj).
 
 ## License
 
