@@ -20,6 +20,20 @@
 
 (gn/reset-notes!)
 
+;; Add some notes:
+
+(gn/add-note! [:div [:p (rand-int 999)]])
+(gn/add-note! [:div [:p (rand-int 999)]])
+(gn/add-note! [:div [:p (rand-int 999)]])
+
+;; Change one of the notes:
+
+(gn/assoc-note! 1 [:div [:p (rand-int 999)]])
+
+;; Reset all notes again:
+
+(gn/reset-notes!)
+
 ;; Add the original intro note:
 
 (gn/add-note! intro/note)
