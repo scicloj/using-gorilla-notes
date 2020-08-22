@@ -42,6 +42,9 @@
 ;; (most examples are taken from the gorilla-ui repo.)
 
 (gn/add-note!
+ [:p/code {:code "(+ 1 2)"}])
+
+(gn/add-note!
  [:p/vega
   {:$schema     "https://vega.github.io/schema/vega-lite/v4.json"
    :description "A scatter plot."
@@ -111,4 +114,6 @@
 (gn/toggle-option! :notes-in-cards?)
 (gn/merge-new-options!
  {:reverse-notes? false
-  :header? true})
+  :header? true
+  :custom-header [:div "Hello" [:hr]]
+  :custom-footer [:div [:hr] "Goodbye"]})
