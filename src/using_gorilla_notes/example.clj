@@ -123,6 +123,8 @@
   :custom-header [:div "Hello" [:hr]]
   :custom-footer [:div [:hr] "Goodbye"]})
 
-(gn/render-current-state! "doc/index.html")
+(def output-path "doc/example/index.html")
 
-(clojure.java.browse/browse-url "doc/index.html")
+(gn/render-current-state! output-path)
+
+(clojure.java.browse/browse-url output-path)
