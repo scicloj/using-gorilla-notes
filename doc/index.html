@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/sandstone/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/solarized-light.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="app"></div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/gh/scicloj/gorilla-notes@master/dist/0.4.0-SNAPSHOT-1/main.js"></script>
+    <script>
+     shadow.loader.load("main");
+     gorilla_notes.main.main_BANG_(false, "{:options {:reverse-notes? false, :header? true, :notes-in-cards? true, :custom-header [:div \"Hello\" [:hr]], :custom-footer [:div [:hr] \"Goodbye\"]}, :ids [\"19\" \"20\" \"21\" \"22\" \"23\" \"24\" \"25\" \"26\"], :id->content {\"19\" [:div [:p \"Hello! This is a note.\"] [:p \"You can add notes at your REPL using the function \" [:code \"add-note!\"] \" of the namespace \" [:code \"gorilla-notes.core\"] \". For example:\"] [:p [:code \"(require '[gorilla-notes.core :as gn])\\n\"]] [:p [:code \"(gn/add-note! [:h1 \\\"hello\\\"])\"]] [:p \"You can empty the collection of notes using the function \" [:code \"reset-notes!\"] \".\"]], \"20\" [:p/code {:code \"(+ 1 2)\"}], \"21\" [:p/vega {:$schema \"https://vega.github.io/schema/vega-lite/v4.json\", :description \"A scatter plot.\", :data {:values ({:x 0, :y 0} {:x 1, :y 5} {:x 2, :y 10} {:x 3, :y 27})}, :mark :point, :encoding {:x {:field :x, :type :quantitative}, :y {:field :y, :type :quantitative}}}], \"22\" [:p/sparklinespot {:data (7 7 3 5 7 1 7 7 6 7 7 6 4 0 2 8 2 5 1 6 1 8 5 0 2 5 0 1 6 1), :limit 100, :svgWidth 100, :svgHeight 20, :margin 1}], \"23\" [:p/clock], \"24\" [:div {:style {:width 100}} [:link {:rel \"stylesheet\", :href \"https://unpkg.com/leaflet@1.6.0/dist/leaflet.css\"}] [:p/leaflet [{:type :view, :center [51.49 -0.08], :zoom 12, :height 600, :width 700} {:type :rectangle, :bounds [[51.49 -0.08] [51.5 -0.06]]} {:type :circle, :center [51.505 -0.09], :fillColor :blue, :radius 200} {:type :polygon, :positions [[51.515 -0.09] [51.52 -0.1] [51.52 -0.12]], :color :purple} {:type :polygon, :positions [[[51.51 -0.12] [51.51 -0.13] [51.53 -0.13]] [[51.51 -0.05] [51.51 -0.07] [51.53 -0.07]]], :color :purple} {:type :line, :positions [[51.505 -0.09] [51.51 -0.1] [51.51 -0.12]], :color :lime} {:type :line, :positions [[[51.5 -0.1] [51.5 -0.12] [51.52 -0.12]] [[51.5 -0.05] [51.5 -0.06] [51.52 -0.06]]], :color :lime} {:type :marker, :position [51.505 -0.09]} {:type :marker, :position [51.51 -0.12], :popup \"wow\"} {:type :circlemarker, :center [51.52 -0.06], :fillColor :blue, :radius 200, :popup \"square the circle\"}]]], \"25\" [:p/player {:width \"100%\", :height \"100%\", :url \"https://www.youtube.com/watch?v=Bs44qdAX5yo\"}], \"26\" [:div [:p/frisk {:a \"I'm a string\", :b :imakeyword, :c [1 2 3], :d (1 2 3), :e #{1 3 2}, \"g\" \"String key\", 0 nil}]]}, :inputs {}, :input-handlers []}");
+    </script>
+</html>
