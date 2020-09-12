@@ -4,7 +4,7 @@ Usage example for [gorilla-notes](https://github.com/scicloj/gorilla-notes).
 
 Most examples are based on [gorilla-ui](https://github.com/pink-gorilla/gorilla-ui)'s [examples](https://github.com/pink-gorilla/gorilla-ui/tree/master/profiles/demo/src/example).
 
-See some of the rendered examples [here](https://scicloj.github.io/using-gorilla-notes/doc/example/)
+See some of the rendered examples [here](https://scicloj.github.io/using-gorilla-notes/doc/example/).
 
 ## Usage
 
