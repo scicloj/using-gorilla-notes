@@ -23,7 +23,9 @@
 ;; Add some notes:
 
 (gn/add-note! [:div [:p (rand-int 999)]])
+
 (gn/add-note! [:div [:p (rand-int 999)]])
+
 (gn/add-note! [:div [:p (rand-int 999)]])
 
 ;; Change one of the notes:
@@ -110,10 +112,17 @@
 
 ;; Modify rendering options
 (gn/toggle-option! :header?)
+
 (gn/toggle-option! :reverse-notes?)
+
 (gn/toggle-option! :notes-in-cards?)
+
 (gn/merge-new-options!
  {:reverse-notes? false
   :header? true
   :custom-header [:div "Hello" [:hr]]
   :custom-footer [:div [:hr] "Goodbye"]})
+
+(gn/render-current-state! "/tmp/index.html")
+
+(clojure.java.browse/browse-url "/tmp/index.html")
