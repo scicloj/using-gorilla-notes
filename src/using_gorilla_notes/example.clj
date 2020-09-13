@@ -1,6 +1,7 @@
 (ns using-gorilla-notes.example
   (:require [gorilla-notes.core :as gn]
-            [gorilla-notes.intro :as intro]))
+            [gorilla-notes.intro :as intro]
+            [clojure.java.browse]))
 
 (defonce server (gn/start-server!))
 
